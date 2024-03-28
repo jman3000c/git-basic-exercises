@@ -1,0 +1,123 @@
+    1  git --version
+    2  git config user.name
+    3  git config --list
+    4  git config --global user.name "jman3000c"
+    5  git config --list
+    6  git config --global user.email "mandla.jiane@gmail.com"
+    7  git config --list
+    8  git clone  --recursive https://github.com/jman3000c/ACN-syllabus.git
+    9  cd ACN-syllabus/
+   10  ls
+   11  git status
+   12  sudo apt install golang
+   13  sudo apt update 
+   14  sudo apt upgrable
+   15  sudo apt upgrade 
+   16  sudo apt install golang
+   17  ./install_hugo.sh 
+   18  hugo serve -b "http://localhost:1313/"
+   19  cd ACN-syllabus/
+   20  git branch Update-freeCodeCamp-Course-Name
+   21  git checkout Update-freeCodeCamp-Course-Name 
+   22  git branch 
+   23  git status
+   24  git add .
+   25  git status
+   26  git add .
+   27  git commit -m "updating the reference from JavaScript Algorithms and Data Structures to Legacy JavaScript Algorithms and Data Structures in 1-basic-javascript and 5-basic-data-structures"
+   28  git push
+   29  git push origin Update-freeCodeCamp-Course-Name
+   30  ls
+   31  ls /dats
+   32  ls /data
+   33  ls /etc/perl
+   34  ls /
+   35  pwd
+   36  mkdir Learning_unix
+   37  ls
+   38  cd Learning_unix/
+   39  mkdir Outer_directory
+   40  cd Outer_directory/
+   41  mkdir Inner_directory
+   42  cd Inner_directory/
+   43  cd home
+   44  cd ubuntu
+   45  cd mandla
+   46  ls
+   47  cd Learning_unix/
+   48  cd ..
+   49  cd /
+   50  cd ~
+   51  cd
+   52  cd ~/Learning_unix/
+   53  cd ..
+   54  ls -l 
+   55  ls =R
+   56  ls -R
+   57  ls -l -t -r
+   58  ls -lh
+   59  man ls
+   60  man rmdir
+   61  rmdir
+   62  cd Learning_unix/Outer_directory/
+   63  rmdir Inner_directory/
+   64  cd ..
+   65  ls
+   66  rmdir Outer_directory/
+   67  cd ..
+   68  ls
+   69  rmdir Learning_unix/
+   70  sudo apt-get install git
+   71  git config
+   72  git config -list
+   73  git config --list
+   74  ssh-keygen -t rsa -b 4096 -C "mandla.jiane@gmail.com"
+   75  cd /
+   76  ls
+   77  git config --list
+   78  git config --global init.defaultBranch main
+   79  git config --list
+   80  git status
+   81  ls -a
+   82  git init
+   83  ls -a
+   84  git status 
+   85  touch README.md
+   86  git status 
+   87  git log
+   88  git add .
+   89* git 
+   90  git rm --cached .
+   91  git rm --cached README.md 
+   92  git status 
+   93  git add .
+   94  git commit -m "initial commit"
+   95  git log
+   96  nano README.md
+   97  cat README.md 
+   98  git status
+   99  git add .
+  100  git commit -m "second commit"
+  101  nano README.md
+  102  git add .
+  103  git commit -m "third commit"
+  104  git log
+  105  git checkout f69b29481c7a6350dce5a9cf36deadd33296c52c
+  106  cat README.md 
+  107  git checkout main 
+  108  cat README.md 
+  109  git branch 
+  110  git branch milkshake-flavours
+  111  git branch 
+  112  git checkout   milkshake-flavours
+  113  git branch 
+  114  nano milkshakes.md
+  115  git status
+  116  git add .
+  117  git commit -m "added initial flavours"
+  118  git log
+  119  git checkout main
+  120  git checkout -b history
+  121  git log
+  122  git branch 
+  123  history > history.txt
